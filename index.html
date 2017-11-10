@@ -19,13 +19,9 @@
     <body>
         <header class="header">
 			<div class="header__top" role="navigation">
-				<div class="row">
-                    <div class="columns">        
-                        <img alt="Good Call logo" src="assets/img/GoodCall_logo.svg">
-                        <a class="header__hamburger" href="#"><img alt="hamburger icon for site navigation" src="assets/img/hamburger_icon.svg"></a>                        
-                        <a class="header__login" href="#" data-reveal-id="login-modal">Login</a>
-                    </div>
-                </div>
+                <img class="header__good-call" alt="Good Call logo" src="assets/img/GoodCall_logo.svg">
+                <a class="header__hamburger" href="#"><img alt="hamburger icon for site navigation" src="assets/img/hamburger_icon.svg"></a>                        
+                <a class="header__login" href="#" data-reveal-id="login-modal">Login</a>
             </div>        
         </header>
 
@@ -34,31 +30,31 @@
                 <div class="columns large-8 large-offset-2 ">
                     <div class="slides js-slider">
                         <div class="slides__slide  section--slider__slide-1">
-                            <img alt="classic college 2-story building" src="assets/img/hero-image-1.png">
+                            <img class="section--hero__image" alt="classic college 2-story building" src="assets/img/hero-image-1.png">
                             <h2 class="text-center">Paying for college without a mountain of debt?<span>Good call.</span></h2>
                             <p class="text-center">How much could I earn for college?</p>
                             <a href="#" class="button">Find Scholarship</a>
                         </div>
                         <div class="slides__slide  section--slider__slide-2">
-                            <img alt="interviewee discussing resume and site portfolio" src="assets/img/hero-image-2.png">
+                            <img class="section--hero__image" alt="interviewee discussing resume and site portfolio" src="assets/img/hero-image-2.png">
                             <h2 class="text-center">Acing your next job interview? <span>Good call.</span></h2>
                             <p class="text-center">What questions should I ask my interviewer?</p>
                             <a href="#" class="button">Get Career Tips</a>
                         </div>
                         <div class="slides__slide  section--slider__slide-3">
-                            <img alt="two computers comparing pricing" src="assets/img/hero-image-3.png">
+                            <img class="section--hero__image" alt="two computers comparing pricing" src="assets/img/hero-image-3.png">
                             <h2 class="text-center">Paying less than your neighbors for internet? <span>Good call.</span></h2>
                             <p class="text-center">Which internet service is right for me?</p>
                             <a href="#" class="button">Get Connected</a>
                         </div>
                         <div class="slides__slide  section--slider__slide-4">
-                            <img alt="credit score measurement like a spedometer" src="assets/img/hero-image-4.png">
+                            <img class="section--hero__image" alt="credit score measurement like a spedometer" src="assets/img/hero-image-4.png">
                             <h2 class="text-center">Keeping an eye on your credit score? <span>Good call.</span></h2>
                             <p class="text-center">How do I build better credit?</p>
                             <a href="#" class="button">Get Personal Finance Advice</a>
                         </div>
                         <div class="slides__slide  section--slider__slide-5">
-                            <img alt="home blueprint of different rooms" src="assets/img/hero-image-5.png">
+                            <img class="section--hero__image" alt="home blueprint of different rooms" src="assets/img/hero-image-5.png">
                             <h2 class="text-center">Moving to your dream destination? <span>Good call.</span></h2>
                             <p class="text-center">How do I get started?</p>
                             <a href="#" class="button">Get Moving Advice</a>
@@ -150,13 +146,13 @@
         <footer class="footer">
             <div class="row">
                 <div class="columns large-12">
-                    <p class="footer__text">Ut trifecta sugar est saucer, caramelization java, robusta, beans redeye breve, mug robust affogato milk galão irish robusta froth aromatic. Frappuccino, half and half eu white a, aftertaste, ristretto frappuccino, roast foam variety lungo siphon. Mug cream cup milk as percolator, milk caffeine, robust, organic, roast white sweet, affogato acerbic black breve caffeine cup doppio shop macchiato java. Steamed cortado, aged robusta, pumpkin spice trifecta, blue mountain espresso beans cup mazagran id seasonal aroma ut americano con panna. Dripper so pumpkin spice siphon crema half and half extra, robust caramelization cortado redeye, saucer white variety espresso redeye crema. Aftertaste, percolator, aftertaste, crema strong carajillo robust organic mocha cortado breve, robusta rich mug irish steamed.</p>
+                    <p class="footer__small-print">Ut trifecta sugar est saucer, caramelization java, robusta, beans redeye breve, mug robust affogato milk galão irish robusta froth aromatic. Frappuccino, half and half eu white a, aftertaste, ristretto frappuccino, roast foam variety lungo siphon. Mug cream cup milk as percolator, milk caffeine, robust, organic, roast white sweet, affogato acerbic black breve caffeine cup doppio shop macchiato java. Steamed cortado, aged robusta, pumpkin spice trifecta, blue mountain espresso beans cup mazagran id seasonal aroma ut americano con panna. Dripper so pumpkin spice siphon crema half and half extra, robust caramelization cortado redeye, saucer white variety espresso redeye crema. Aftertaste, percolator, aftertaste, crema strong carajillo robust organic mocha cortado breve, robusta rich mug irish steamed.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="columns large-5">
                     <h3>Our Goal</h3>
-                    <p>At GoodCall, we believe that the best decisions are backed by data. Moreover, we believe that data should be free, transparent and easy to understand. We aim to help students and their families make the best decisions at critical moments – for college, careers and beyond.</p>
+                    <p class="footer__text">At GoodCall, we believe that the best decisions are backed by data. Moreover, we believe that data should be free, transparent and easy to understand. We aim to help students and their families make the best decisions at critical moments – for college, careers and beyond.</p>
                 </div>
                 <div class="columns large-7">
                     <div class="columns large-3">
@@ -198,24 +194,18 @@
         </footer>
 
 		<!-- Place modals here -->
-		<div id="login-modal" class="reveal-modal  good-call__modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+		<div id="login-modal" class="reveal-modal  good-call--modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
            <div class="text-center">
-                <div class="row">
-                    <div class="columns">
-                        <h2>Log-In</h2>
-                        <p>Please enter a valid email address</p>
-                        <form>
-                            <label>Email Address</label>
-                            <input class="" type="text">
-                            <input type="submit" class="button" value="Search partners">
-                            <label>Password</label>
-                            <input class="" type="text">
-                            <input type="submit" class="button" value="Search partners">
-                            <a href="#" class="button">Log In</a>
-                        </form>
-                        <p>Don't have an account? <a href="#">Sign-Up Now</a></p>
-                    </div>
-                </div>		
+                <h2>Log-In</h2>
+                <p class="good-call--modal__instructions">Please enter a valid email address</p>
+                <form>
+                    <label class="good-call--modal__email">Email Address</label>
+                    <input class="good-call--modal__input-1" type="text">
+                    <label class="good-call--modal__password">Password</label>
+                    <input class="good-call--modal__input-2" type="text">
+                    <a href="#" class="button">Log In</a>
+                </form>
+                <p class="good-call--modal__sign-up">Don't have an account? <a href="#">Sign-Up Now</a></p>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div> 
         </div>

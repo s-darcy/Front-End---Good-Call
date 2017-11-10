@@ -1,15 +1,13 @@
 .section--hero {
     
     background-image: url( '../img/background-shapes.png' );
-    background-size: cover;
-	background-position: center;
     background-repeat: no-repeat;
     background-size: 81%;
+    background-position: cover;
     background-position-y: -5%;
-    border: 0px;
 
-    & img {
-        margin-bottom: 25px;
+    &__image {
+        margin-bottom: 38px;
     }
 
     & h2 {
@@ -34,3 +32,6 @@
 
 }//section--hero
 
+.slides {
+    width: 614px;
+}

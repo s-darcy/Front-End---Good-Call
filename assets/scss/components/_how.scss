@@ -1,19 +1,20 @@
 
 .section--how {
+
     background-color: #EDF1F2;
     background-image: url( '../img/background-lines.png');
     margin-bottom: 121px;
     
     &__icon {
-        margin-top: 100px;
         margin-bottom: 51px;
+        margin-top: 100px;
         transform: translateX(50%);
     }
     
     &__title {
-        margin-bottom: 17px;
         color: $color-Emperor;
         font-size: 30px;
+        margin-bottom: 17px;
     }
 
     &__text {
@@ -21,4 +22,4 @@
         margin-bottom: 98px;
     }
 
-}
+}//section--how

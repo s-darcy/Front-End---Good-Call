@@ -1,9 +1,4 @@
 .footer {
-    &__text {
-        font-size: 12px;
-        color: $color-Dusty-Gray;
-        margin-bottom: 51px;
-    }
 
     h3 {
         color: $color-International-Orange;
@@ -11,22 +6,25 @@
         text-transform: uppercase;
     }
 
-    p, li {
-        font-size: 18px;
-        color: $color-Dusty-Gray;
-    }
-
-    p {
-        line-height: 24px;
-    }
-
     ul {
         margin-left: 0px;
     }
 
     li {
+        color: $color-Dusty-Gray;
         line-height: 30px;
         padding: 0px;
+    }
+
+    &__text {
+        color: $color-Dusty-Gray;
+        font-size: 18px;
+    }
+
+    &__small-print {
+        color: $color-Dusty-Gray;
+        font-size: 12px;
+        margin-bottom: 51px;
     }
 
     .large-2,
