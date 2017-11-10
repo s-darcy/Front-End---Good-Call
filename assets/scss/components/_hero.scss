@@ -1,0 +1,36 @@
+.section--hero {
+    
+    background-image: url( '../img/background-shapes.png' );
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 81%;
+    background-position-y: -5%;
+    border: 0px;
+
+    & img {
+        margin-bottom: 25px;
+    }
+
+    & h2 {
+        color: $color-Emperor;
+        line-height: 61px;
+        margin-bottom: 25px;      
+    }
+
+    & p {
+        color: $color-Dusty-Gray;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .row {
+        margin-bottom: 80px;
+    }
+
+    .button {
+        margin-bottom: 111px;
+    }
+
+}//section--hero
+
